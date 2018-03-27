@@ -36,7 +36,7 @@ pipeline {
     }
     stage('Notify') {
       steps {
-        mail(subject: 'New Jenkins build', body: 'Hi there is a new Jenkins build here!', from: 'saad.zaher@hpe.com', replyTo: 'saad.zaher@hpe.com', to: 'pegasus@lists.osp.hpe.com ')
+        echo "nothing here"
       }
     }
   }
