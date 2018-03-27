@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('checkout') {
           steps {
-            git(url: 'https://github.com/ctpegasus/freezer-api', branch: '*/master', changelog: true, poll: true)
+            sh 'whoami'
           }
         }
         stage('') {
