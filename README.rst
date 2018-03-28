@@ -1,6 +1,6 @@
-========================
-Team and repository tags
-========================
+=========================
+Teams and repository tags
+=========================
 
 .. image:: https://governance.openstack.org/tc/badges/freezer-api.svg
     :target: https://governance.openstack.org/tc/reference/tags/index.html
